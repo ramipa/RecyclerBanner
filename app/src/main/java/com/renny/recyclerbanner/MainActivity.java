@@ -2,7 +2,7 @@ package com.renny.recyclerbanner;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -23,12 +23,13 @@ public class MainActivity extends AppCompatActivity implements BannerLayout.OnBa
         BannerLayout bannerVertical =  findViewById(R.id.recycler_ver);
 
         List<String> list = new ArrayList<>();
-        list.add("http://img0.imgtn.bdimg.com/it/u=1352823040,1166166164&fm=27&gp=0.jpg");
-        list.add("http://img3.imgtn.bdimg.com/it/u=2293177440,3125900197&fm=27&gp=0.jpg");
-        list.add("http://img3.imgtn.bdimg.com/it/u=3967183915,4078698000&fm=27&gp=0.jpg");
-        list.add("http://img0.imgtn.bdimg.com/it/u=3184221534,2238244948&fm=27&gp=0.jpg");
-        list.add("http://img4.imgtn.bdimg.com/it/u=1794621527,1964098559&fm=27&gp=0.jpg");
-        list.add("http://img4.imgtn.bdimg.com/it/u=1243617734,335916716&fm=27&gp=0.jpg");
+        list.add("https://picsum.photos/id/1001/1200/600.jpg");
+        list.add("https://picsum.photos/id/1001/1200/600?blur=5.jpg");
+        list.add("https://picsum.photos/id/1001/1200/600?grayscale.jpg");
+        list.add("https://picsum.photos/id/1001/1200/600?grayscale&blur=5.jpg");
+        list.add("https://picsum.photos/id/1011/1200/600.jpg");
+        list.add("https://picsum.photos/id/1101/1200/600.jpg");
+
         WebBannerAdapter webBannerAdapter=new WebBannerAdapter(this,list);
         webBannerAdapter.setOnBannerItemClickListener(new BannerLayout.OnBannerItemClickListener() {
             @Override

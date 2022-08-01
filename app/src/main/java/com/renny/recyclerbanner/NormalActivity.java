@@ -1,7 +1,7 @@
 package com.renny.recyclerbanner;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.example.library.banner.RecyclerViewBannerBase;
@@ -12,6 +12,13 @@ import java.util.List;
 public class NormalActivity extends AppCompatActivity {
     RecyclerViewBannerNormal banner, banner2;
 
+//        list.add("https://picsum.photos/id/1001/1200/600.jpg");
+//        list.add("https://picsum.photos/id/1001/1200/600?blur=5.jpg");
+//        list.add("https://picsum.photos/id/1001/1200/600?grayscale.jpg");
+//        list.add("https://picsum.photos/id/1001/1200/600?grayscale&blur=5.jpg");
+//        list.add("https://picsum.photos/id/1011/1200/600.jpg");
+//        list.add("https://picsum.photos/id/1101/1200/600.jpg");
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +27,8 @@ public class NormalActivity extends AppCompatActivity {
         banner = (RecyclerViewBannerNormal) findViewById(R.id.banner);
         banner2 = (RecyclerViewBannerNormal) findViewById(R.id.banner2);
         List<String> list = new ArrayList<>();
-        list.add("http://img0.imgtn.bdimg.com/it/u=1352823040,1166166164&fm=27&gp=0.jpg");
+
+        list.add("https://picsum.photos/id/1011/1200/600.jpg");
 
         banner.initBannerImageView(list, new RecyclerViewBannerBase.OnBannerItemClickListener() {
             @Override

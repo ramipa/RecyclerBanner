@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RecyclerBanner.iml" filepath="$PROJECT_DIR$/RecyclerBanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecyclerBanner.iml" filepath="$PROJECT_DIR$/.idea/modules/RecyclerBanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerBanner.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/RecyclerBanner.library.unitTest.iml" />
     </modules>
   </component>
 </project>

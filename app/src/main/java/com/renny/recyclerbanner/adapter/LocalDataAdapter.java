@@ -1,6 +1,6 @@
 package com.renny.recyclerbanner.adapter;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,12 +37,7 @@ public class LocalDataAdapter extends RecyclerView.Adapter<LocalDataAdapter.View
         ViewHolder(View itemView) {
             super(itemView);
             imageView = (ImageView) itemView.findViewById(R.id.image);
-            imageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(v.getContext(), "点击了" + v.getTag(), Toast.LENGTH_SHORT).show();
-                }
-            });
+            imageView.setOnClickListener(v -> Toast.makeText(v.getContext(), "点击了" + v.getTag(), Toast.LENGTH_SHORT).show());
         }
     }
 }
